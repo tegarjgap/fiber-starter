@@ -1,0 +1,23 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go executables
+*.out
+
+# Ignore the vendor directory created by Go modules
+/vendor/
+
+# Ignore the generated files by popular Golang frameworks and tools
+/Godeps/
+/.vscode/
+/.idea/
+/.DS_Store
+
+# Ignore build output
+/build/
+/dist/
+/.env
